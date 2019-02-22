@@ -22,6 +22,4 @@ Predoaders.propTypes ={
     backcolor:PropTypes.string
    
 }  
-  
- 
 ReactDOM.render(<Predoaders /> ,document.getElementById("App"));
