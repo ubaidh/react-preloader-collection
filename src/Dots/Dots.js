@@ -4,8 +4,7 @@ const Dots=(props)=> {
   const bg= props.bg;
   const back={
     backgroundColor:`${bg}`
-    
-  }
+}
   return (
     <div style={back} className="outline">
     <div className="loader">
@@ -14,7 +13,6 @@ const Dots=(props)=> {
       <div></div>
     </div>
   </div>
-
   )
 }
 export default Dots;
