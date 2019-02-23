@@ -19,7 +19,6 @@ class Predoaders extends React.Component {
     }
 Predoaders.propTypes ={
     name:PropTypes.string,
-    backcolor:PropTypes.string
-   
+    backcolor:PropTypes.string   
 }  
 ReactDOM.render(<Predoaders /> ,document.getElementById("App"));
