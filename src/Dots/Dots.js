@@ -1,5 +1,6 @@
 import React from 'react'
 import './Dots.css';
+
 const Dots=(props)=> {
   const bg= props.bg;
   const back={
@@ -15,4 +16,5 @@ const Dots=(props)=> {
   </div>
   )
 }
+
 export default Dots;
