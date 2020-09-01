@@ -8,16 +8,17 @@ const Circledots=(props)=> {
     }
       return (    
         <div style={back} className="holder" >
-        <div className="preloader"  >
-        <div></div>
-        <div></div><div></div>
-        <div></div><div></div>
-        <div></div><div></div>
-        <div></div><div></div>
-        <div></div></div>
+            <div className="preloader"  >
+            <div></div>
+            <div></div><div></div>
+            <div></div><div></div>
+            <div></div><div></div>
+            <div></div><div></div>
+            <div></div>
+          </div>
       </div>
       );
-      }
+  }
 
   export default Circledots;
   
