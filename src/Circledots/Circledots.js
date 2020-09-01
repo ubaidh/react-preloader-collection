@@ -1,5 +1,6 @@
 import React from 'react';
 import './Circledots.css';
+
 const Circledots=(props)=> {
     const bg= props.bg;
     const back={
