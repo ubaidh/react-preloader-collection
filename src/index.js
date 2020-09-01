@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import Dots from './Dots/Dots';
 import Ddefault from './Ddefault/Ddefault';
 import Circledots from './Circledots/Circledots';
+
+
 class Predoaders extends React.Component {
     render() { 
         const {name,backcolor} =this.props;
@@ -17,8 +19,10 @@ class Predoaders extends React.Component {
         }
       }
     }
+    
 Predoaders.propTypes ={
     name:PropTypes.string,
     backcolor:PropTypes.string   
 }  
+
 ReactDOM.render(<Predoaders /> ,document.getElementById("App"));
