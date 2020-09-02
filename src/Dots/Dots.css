@@ -56,12 +56,16 @@
             transform: scale(1);
   }
 }
+
+
 @-webkit-keyframes beat {
   to {
     -webkit-transform: scale(1.5);
             transform: scale(1.5);
   }
 }
+
+
 @keyframes beat {
   to {
     -webkit-transform: scale(1.5);
